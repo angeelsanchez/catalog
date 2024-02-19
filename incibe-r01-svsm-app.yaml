@@ -16,7 +16,7 @@ metadata:
     # backstage.io/kubernetes-id: dso-backstage
     circleci.com/project-slug: bitbucket/svsm/incibe-r01-svsm-app
     grafana/overview-dashboard: 'https://grafana.aws.neoris.cloud/d/cluster-costs/cluster-cost-and-utilization-metrics?orgId=1&refresh=15m&viewPanel=116&kiosk=true'
-    jenkins.io/job-full-name: 'incibe-r01-pipeline'
+    jenkins.io/job-full-name: 'svsm'
     gitlab.com/project-slug: anpeni/incibe-r01-svsm-app
     tektonci/build-namespace: 'svsm'
   tags:
