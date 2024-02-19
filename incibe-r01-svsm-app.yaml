@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: incibe-r01-svsm-app
+  name: incibe-r01-svsm-app-2
   description: SVSM main website
   annotations:
     backstage.io/source-location: url:https://github.com/DDC-NEORIS/incibe-r01-svsm-app/src/main/
@@ -30,8 +30,8 @@ metadata:
       title: GitHub Repo
       icon: Github
     - url: https://github.com/DDC-NEORIS/incibe-r01-svsm-app-tests
-      title: GitHub Testing
-      icon: Github
+      title: GitHub Testing X
+      icon: GitHub
 spec:
   type: demo
   lifecycle: production
