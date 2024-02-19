@@ -4,7 +4,7 @@ metadata:
   name: incibe-r01-svsm-app
   description: SVSM main website
   annotations:
-    backstage.io/techdocs-ref: url:https://github.com/DDC-NEORIS/incibe-r01-svsm-app/blob/main/README.md
+    backstage.io/techdocs-ref: url:https://github.com/DDC-NEORIS/incibe-r01-svsm-app/tree/main
     backstage.io/source-location: url:https://github.com/DDC-NEORIS/incibe-r01-svsm-app/src/main/
     sonarqube.org/project-key: incibe-svsm_svsm # YOUR_PROJECT_KEY
     bitbucket.org/repository-slug: 'svsm/incibe-r01-svsm-app' # {workspace_slug}/{repo_slug}
@@ -31,7 +31,7 @@ metadata:
       title: GitHub Repo
       icon: Github
     - url: https://github.com/DDC-NEORIS/incibe-r01-svsm-app-tests
-      title: GitHub Testing
+      title: GitHub Testing X
       icon: Github
 spec:
   type: demo
