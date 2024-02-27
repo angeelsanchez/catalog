@@ -22,7 +22,7 @@ metadata:
     backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=svsm-core'
     backstage.io/kubernetes-namespace: 'svsm'
     tektonci/build-namespace: 'svsm'
-    janus-idp.io/tekton: svsm
+    janus-idp.io/tekton: hello-world-task
   tags:
     - react
     - nodejs
