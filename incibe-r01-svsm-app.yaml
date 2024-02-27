@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: incibe-r01-svsm-app-3
+  name: incibe-r01-svsm-app-4
   description: SVSM main website
   annotations:
     backstage.io/techdocs-ref: url:https://github.com/DDC-NEORIS/incibe-r01-svsm-app/tree/main
@@ -19,7 +19,7 @@ metadata:
     jenkins.io/job-full-name: 'svsm'
     gitlab.com/project-slug: anpeni/incibe-r01-svsm-app
     # Tekton
-    #backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=svsm'
+backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=svsm-core'
     backstage.io/kubernetes-namespace: 'svsm'
     tektonci/build-namespace: 'svsm'
     janus-idp.io/tekton: svsm
