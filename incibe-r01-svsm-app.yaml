@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: incibe-r01-svsm-app-5
+  name: incibe-r01-svsm-app-6
   description: SVSM main website
   annotations:
     backstage.io/techdocs-ref: url:https://github.com/DDC-NEORIS/incibe-r01-svsm-app/tree/main
