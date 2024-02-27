@@ -19,7 +19,7 @@ metadata:
     jenkins.io/job-full-name: 'svsm'
     gitlab.com/project-slug: anpeni/incibe-r01-svsm-app
     # Tekton
-    backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=svsm'
+    #backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=svsm'
     backstage.io/kubernetes-namespace: 'svsm'
     tektonci/build-namespace: 'svsm'
     janus-idp.io/tekton: svsm
