@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: incibe-r01-svsm-app-x1
+  name: incibe-r01-svsm-app-prb
   description: SVSM main website
   annotations:
     backstage.io/techdocs-ref: url:https://github.com/DDC-NEORIS/incibe-r01-svsm-app/tree/main
@@ -10,19 +10,20 @@ metadata:
     bitbucket.org/repository-slug: 'svsm/incibe-r01-svsm-app' # {workspace_slug}/{repo_slug}
     prometheus.io/rule: memUsage|component,node_memory_active_bytes|instance,sum by (instance) (node_cpu_seconds_total)
     prometheus.io/alert: all
+    # backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=svsm'
+    # backstage.io/kubernetes-namespace: 'svsm'
     dev.azure.com/project-repo: 'incibe-r01-svsm-app/incibe-r01-svsm-app'
     github.com/project-slug: 'DDC-NEORIS/incibe-r01-svsm-app'
-    # backstage.io/kubernetes-id: dso-backstage
     # circleci.com/project-slug: github/angeelsanchez/incibe-r01-svsm-app
     circleci.com/project-slug: bitbucket/svsm/incibe-r01-svsm-app
     grafana/overview-dashboard: 'https://grafana.aws.neoris.cloud/d/cluster-costs/cluster-cost-and-utilization-metrics?orgId=1&refresh=15m&viewPanel=116&kiosk=true'
     jenkins.io/job-full-name: 'svsm'
     gitlab.com/project-slug: anpeni/incibe-r01-svsm-app
-    # Tekton
-    backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=svsm-core'
-    backstage.io/kubernetes-namespace: 'svsm'
     tektonci/build-namespace: 'svsm'
-    janus-idp.io/tekton: hello-world-task
+    #Tekton janus
+    janus-idp.io/tekton: incibe-r01-svsm-app
+    backstage.io/kubernetes-id: incibe-r01-svsm-app
+
   tags:
     - react
     - nodejs
